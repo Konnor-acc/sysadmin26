@@ -28,5 +28,7 @@
    Output: 12 
 4. sort -n numbers.txt | tail 
    Output: 99999
-  
+   
+   sort -n numbers.txt | head  -1
+   Output: 18
 
