@@ -16,3 +16,17 @@
 3. Wie viele Sequenzen in `data/exam/02.fa` enthalten "bta" in der ID?
 4. Was ist die kleinste und was ist die größte Zahl in `data/exam/numbers.txt`?
 5. Lösche die Datei `data/exam/trash.txt`. Erstelle danach einen git commit.
+
+## Solutions 
+
+1. mkdir data/exam/index 
+   mv *.fai data/exam/index
+2. wc 01.fa 
+   Output:  603  1577 31173 01.fa 
+   die datei 01.fa besitzt insgesamt 603 Zeilen 
+3. grep -c "bta" 02.fa
+   Output: 12 
+4. sort -n numbers.txt | tail 
+   Output: 99999
+  
+
